@@ -1,7 +1,7 @@
 class Solution {
     static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V) {
-        // code here
-        ArrayList<ArrayList<Integer>> adj1 = new ArrayList<>();
+        
+        ArrayList<ArrayList<Integer>> adj1 = new  ArrayList<>();
         for(int i = 0;i<V;i++){
             adj1.add(new ArrayList<Integer>());
         }
